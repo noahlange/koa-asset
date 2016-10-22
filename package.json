@@ -1,6 +1,6 @@
 {
   "name": "koa-asset",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Rewrite of Mincer's built-in server and connect-mincer for Koa.",
   "main": "lib/index.js",
   "author": "Noah Lange <noahrlange@gmail.com>",
