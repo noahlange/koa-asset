@@ -1,0 +1,26 @@
+{
+  "name": "koa-asset",
+  "version": "1.0.0",
+  "description": "Rewrite of Mincer's built-in server and connect-mincer for Koa.",
+  "main": "lib/index.js",
+  "author": "Noah Lange <noahrlange@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "compressible": "^2.0.8",
+    "koa": "next",
+    "koa-compose": "next",
+    "koa-mount": "next",
+    "mimoza": "^1.0.0",
+    "mincer": "^1.5.0",
+    "mz": "^2.4.0"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.0.33",
+    "@types/koa-compose": "^3.0.30",
+    "@types/koa-mount": "^2.0.17",
+    "@types/mz": "^0.0.30",
+    "@types/node": "^6.0.45",
+    "tslint": "^3.15.1",
+    "typescript": "^2.0.3"
+  }
+}

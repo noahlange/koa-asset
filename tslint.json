@@ -1,0 +1,38 @@
+{
+  "extends": "tslint/lib/configs/recommended.js",
+  "rules": {
+    "trailing-comma": false,
+    "quotemark": [
+      true,
+      "single",
+      "avoid-escape"
+    ],
+    "member-ordering": [
+      true,
+      {
+        "order": [
+          "public-static-field",
+          "protected-static-field",
+          "private-static-field",
+          "public-static-method",
+          "protected-static-method",
+          "private-static-method",
+          "public-instance-field",
+          "protected-instance-field",
+          "private-instance-field",
+          "public-instance-method",
+          "protected-instance-method",
+          "private-instance-method",
+          "constructor"
+        ]
+      }
+    ],
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "check-format",
+      "allow-leading-underscore",
+      "allow-pascal-case"
+    ]
+  }
+}
